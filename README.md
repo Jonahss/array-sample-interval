@@ -1,4 +1,4 @@
-## array-sampleInterval ##
+## array-sample-interval ##
 An array extension to sample random intervals from an array.
 
 _sampleInterval(numberOfSamples, intervalWidth)_
@@ -17,7 +17,7 @@ npm install array-sample
 ```
 ## Usage ##
 ```
-Array.prototype.sampleInterval = require('array-sampleInterval');
+Array.prototype.sampleInterval = require('array-sample-interval');
 
 [0,1,2,3,4].sample(1) // [3,3]
 [0,1,2,3,4].sample(1) // [1,1]
